@@ -4,6 +4,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14;
+  line-height: 20px;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  border: 4px solid #FEC63E;
+  text-transform: uppercase;
+  color: #FEC63E;
+  padding: 12px 22px;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
 
 /* Header styles */
 
@@ -13,6 +40,7 @@ body {
   width: 100%;
   background-color: #FEC63E;
   padding: 10px 0;
+  z-index: 1;
 }
 
 .header_menu {
@@ -35,4 +63,121 @@ body {
 
 .header_menu ul li a:hover {
   color: #fff;
+}
+
+/* Introduction Styles */
+
+.introducao {
+  width: 100%;
+  margin-top: 86px;
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 380px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.quote-externo {
+  color: #fff;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 19px;
+  margin-bottom: 55px;
+}
+
+.quote-externo p::before, .quote-externo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo p{
+  font-style: italic;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: .1em;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn-preto:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* Products Styles */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos h2 {
+  margin-bottom: 40px;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 8px auto;
+}
+
+.produtos_lista li {
+  background-color: #FEC63E;
+  text-align: center;
+}
+
+.produtos_lista li h3{
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.produtos_lista h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px auto;
+}
+
+.produtos_lista p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+  background-color: #000;
+  padding: 20px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
 }
