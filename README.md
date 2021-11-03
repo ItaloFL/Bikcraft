@@ -14,7 +14,7 @@
 
 # 🎉 Preview
 
-Project made through a course, called Origami, where the entire UI of the project was made from scratch, link: [Figma](https://www.figma.com/file/FbLN4qKTc8aLXpTdHTmAyi/bikcraft---design?node-id=0%3A1)
+Project made through a course, called Origami, where the entire UI of the project was made from scratch, link: - [Figma](https://www.figma.com/file/FbLN4qKTc8aLXpTdHTmAyi/bikcraft---design?node-id=0%3A1)
 
  <img src='https://cdn.discordapp.com/attachments/743206177030275115/905510238877282335/unknown.png'>
 
@@ -57,7 +57,7 @@ This project made by course Origamid and i do it for test and improve my skills 
 Ítalo Ferreira Lopes
 
 
-💻 - [Github](https://github.com/ItaloFL)
-📒 - [Linkedin](https://www.linkedin.com/in/italo-ferreira-dev/)
+ - 💻 - [Github](https://github.com/ItaloFL)
+ - 📒 - [Linkedin](https://www.linkedin.com/in/italo-ferreira-dev/)
 
 Feito com 💜
