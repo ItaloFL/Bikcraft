@@ -221,6 +221,10 @@ img {
   padding: 10px 20px 20px 20px;
 }
 
+.produtos_lista img {
+  margin: 0 auto;
+}
+
 .produtos_icone {
   background-color: #000;
   padding: 20px;
