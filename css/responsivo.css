@@ -1,0 +1,172 @@
+/* Styles for Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+ /* Quality styles */
+	
+	.qualidade::after {
+		right: 66px;
+	}
+
+	.qualidade_lista li {
+		text-align: center;
+		padding: 0px 20px;
+	}
+
+	/* Footer Styles */
+
+	.footer_redes ul li a {
+		padding: 6px;
+	}
+
+	.footer_redes ul li a img {
+		width: 26px;
+		height: 26px;
+	}
+
+	/* Product's Styles */
+	.produto_item h2 {
+		top: -150px;
+	}
+
+	.produto_icone {
+		background-color: #000;
+		padding: 41px 0;
+	}
+
+	.produto_info p {
+		height: 122px;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li {
+		width: 181px;
+	}
+
+}
+
+/* Styles for Smartphone  */
+@media only screen and (max-width: 787px) {
+
+	/* Header Styles */
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	.header img {
+		margin: 0 auto 20px auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		margin: 5px;
+	}
+
+	.header_menu ul li a {
+		border: 4px solid #000;
+		width: 136px;
+		float: left;
+		display: block;
+		margin-left: 0px;
+	}
+
+	.header_menu ul li a:hover {
+		border-color: #fff;
+	}
+
+	/* Introduction Styles */
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 40px;
+	}
+
+	.introducao h1 {
+		font-size: 36px;
+	}
+
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
+	/* Call to action Styles */
+
+	.call {
+		padding-top: 10px;
+	}
+
+	/* Quality Styles */
+
+	.qualidade::after {
+		display: none;
+	}
+
+	.qualidade ul li p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	/* Menu Styles */
+
+	.header_menu ul li a.menu_ativo {
+		border-color: #fff;
+	}
+
+	/* About Styles */
+
+	.missao_sobre p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}
+
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+	}
+
+	/* Products Styles */
+
+	.produto_item h2 {
+		top: -100px;
+		margin-bottom: -68px;
+	}
+
+	.produto_icone {
+		background-color: #000;
+		padding: 41px 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 20px 20px;
+	}
+
+	.produto_info ul li {
+		width: 149px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	.form {
+		padding-right: 0px;
+	}
+
+	.orcamento_dados ul {
+		padding-right: 0px;
+	}
+
+	/* Contact Styles */
+
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+	
+}
+
