@@ -25,7 +25,7 @@ This project made by course Origamid and i do it for test and improve my skills 
 
 ---
 
-## 🛠 Tools
+## 🛠 Front-Ens Tools
 
 - [HTML]()
 - [CSS]()
@@ -34,7 +34,19 @@ This project made by course Origamid and i do it for test and improve my skills 
 
 ---
 
-## 📜 Building
+
+## 🛠 Back-End Tools
+
+- [Nodejs]()
+- [Typescript]()
+- [Nodemailer]()
+- [Express]()
+
+---
+
+## About email send - Back-End 
+
+To send the email, you need to be running the backend on your local machine, follow the steps below:
 
 ```bash
 
