@@ -6,7 +6,7 @@
   "author": "Italo Ferreira <grd788@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd backend/server.ts"
+    "dev": "tsnd --inspect --transpile-only --ignore-watch node_modules backend/server.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",

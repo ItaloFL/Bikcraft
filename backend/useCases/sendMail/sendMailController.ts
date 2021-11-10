@@ -1,18 +1,11 @@
 import { Request, Response } from "express";
 import { SendMailUseCase } from "./sendMailUseCase";
 
-
-
-
 export class SendMailController {
 
   async handle(request: Request, response: Response){
 
     const { nome, email, mensagem } = request.body
-
-    // const nome = 'Italo Ferreira Lopes'
-    // const email = 'grd788@gmail.com'
-    // const mensagem = 'oefhwoefwef'
 
     const sendMailUseCase = new SendMailUseCase()
 

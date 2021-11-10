@@ -1,6 +1,6 @@
 import nodemailer, { Transporter } from 'nodemailer'
-import smtpTransport from 'nodemailer-smtp-transport'
 import 'dotenv'
+import smtpTransport from 'nodemailer-smtp-transport'
 
 export interface userSettings{
   nome: string
@@ -13,18 +13,18 @@ export class SendMailUseCase {
   private client: Transporter
 
   constructor () {
-
-    // const mail = process.env.API_MAIL_USER
-    // const pass = process.env.API_MAIL_PASSWORD
+    const user : string = process.env.API_VALIDATION_USER
+    const pass : string = process.env.API_VALIDATION_PASSWORD
     
+    console.log(user, pass)
+
     this.client = nodemailer.createTransport(smtpTransport({
       service: 'gmail',
       port: 465,
       host: 'smtp.gmail.com',
       secure: true,
       auth: {
-        user: 'italotestmail@gmail.com',
-        pass: 'byxqbcokjkbaclzo'
+        user, pass
       }
     }))
   }
