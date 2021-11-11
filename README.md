@@ -8,7 +8,7 @@
 - [About](#-about-the-project)
 - [Front-End Tools](#-front-end-tools)
 - [Back-End Tools](#-back-end-tools)
-- [Developers](#-developer)
+- [Developer](#-developer)
 
 ---
 
