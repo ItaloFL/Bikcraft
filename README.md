@@ -6,9 +6,9 @@
 # 🔎 Indice 
 
 - [About](#-about-the-project)
-- [Tools](#-tools)
-- [Building](#-building)
-- [Developers](#-developers)
+- [Front-End Tools](#-front-end-tools)
+- [Back-End Tools](#-back-end-tools)
+- [Developers](#-developer)
 
 ---
 
@@ -25,7 +25,7 @@ This project made by course Origamid and i do it for test and improve my skills 
 
 ---
 
-## 🛠 Front-Ens Tools
+## 🛠 Front-End Tools
 
 - [HTML]()
 - [CSS]()
